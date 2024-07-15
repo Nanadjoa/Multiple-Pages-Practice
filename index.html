@@ -1,0 +1,166 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multiple Pages Practice</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primaryColor: '#0077FF',
+            headingColor: '#04202a',
+            paragraphColor: '#a3a1a1',
+          },
+        fontSize: {
+            heading: '50px',
+            paragraph:'12px',
+
+        }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-gray-900">
+  <div class="bg-white m-[100px] ">
+    <div class=" bg-white">
+      <nav class="px-[150px]">
+          <div class="flex flex-row  items-center gap-[80px]">
+           <a href="index.html"> 
+            <img class="w-[180px] h-[100px] object-fit" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRco2flprjWvXEDAQWsXdGnOgJTL4c1hlELQA&s">
+           </a>
+
+            <div >
+                  <ul class="flex flex-row items-center justify-center gap-[30px]">
+                      <li><a class="text-headingColor font-bold " href="individual.html">Individuals</a></li>
+                      <li><a class="text-headingColo font-bold" href="teams.html">Teams</a></li>
+                      <li><a class="text-headingColor font-bold" href="enterprise.html">Enterprise</a></li>
+                      
+                  </ul>
+              </div>
+          </div>
+
+      </nav>
+
+    </div>
+
+  
+    <header class="px-[150px] mt-[80px]">
+        <div class="flex flex-row items-center  mx-auto gap-[100px] ">
+            <div>
+                <h2 class="text-headingColor text-heading leading-[55px] font-bold text-3xl w-[280px]">
+                   Easy scheduling <span class="text-primaryColor">ahead</span>
+                  </h2>
+                <p class="text-headingColor font-semibold leading-[25px] text-[14px] w-[280px] mt-[40px]">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit possimus voluptates, perferendis nemo soluta iusto?
+                </p>
+                
+                <div class="flex flex-row mt-[20px] border border-gray-100 bg-white rounded-[25px] w-[300px] h-[55px] shadow-md">
+                    <input  class=" ml-[20px]" type="text" placeholder="Enter email">
+                    <button class="bg-black text-white rounded-[25px] text-[10px] py-[10px] px-[] w-[150px]">Sign up</button>
+                </div>
+
+                <p class="text-paragraphColor text-[13px] mt-[8px] ml-[10px] leading-tight " >
+                  Create your free account. No credit required
+                </p>
+
+            </div>
+
+            <div>
+                <img class="w-[500px] h-[400px] shrink-0 object-fit mb-[50px]" src="https://i.pinimg.com/736x/98/cf/39/98cf39fe20e89b16f1b78d7c3cd52fa8.jpg" >
+            </div>
+        </div>
+        
+    </header>
+    
+    <section class=" mt-[50px]">
+      <div class="bg-gray-200 p-[20px] py-[20px]  h-[220px] rounded-[2px] align-middle text-center ">
+        <h2 class="ml-[350px] text-[25px] font-bold text-center text-headingColor leading-tight w-[430px] pt-[20px]">
+          Simplified scheduling for more than <span class="text-primaryColor">10,000,000</span>  users worldwide
+        </h2>
+        
+        <div class="flex flex-row justify-center items-center gap-[60px]">
+          <img class="grayscale h-[80px] w-[80px] object-fit" src="Images/compass logo.png">
+
+          <svg class="w-7 h-7 text-gray-500 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M12.013 6.175 7.006 9.369l5.007 3.194-5.007 3.193L2 12.545l5.006-3.193L2 6.175l5.006-3.194 5.007 3.194ZM6.981 17.806l5.006-3.193 5.006 3.193L11.987 21l-5.006-3.194Z"/>
+            <path d="m12.013 12.545 5.006-3.194-5.006-3.176 4.98-3.194L22 6.175l-5.007 3.194L22 12.562l-5.007 3.194-4.98-3.211Z"/>
+          </svg>
+
+          <img class="grayscale w-[80px] h-[80px] object-cover" src="Images/ebay logo.png">
+          
+          <img class="grayscale w-[100px] h-[150px] object-fit" src="Images/lazboy logo.png">
+          <img class="grayscale w-[60px] h-[20px] object-fit  " src="Images/twilio logo.png" >
+          
+        </div>
+
+      </div>
+
+
+    </section>
+ 
+    <section class="mt-[50px] h-[200px]">
+      <div class="flex flex-row justify-center items-center gap-[20px]">
+
+        <div class="flex flex-row gap-[10px]">
+          <div class="flex flex-col items-center justify-center">
+            <div class="bg-primaryColor rounded-[50px] w-[20px] h-[20px] p-[2px]  pl-[6px] ">
+              <p class="  text-white text-[11px]">1.</p>
+            </div>
+
+            <div class="bg-gray-200 w-[1px] h-[130px]"></div>
+
+          </div>
+
+          <div class="w-[180px] h-">
+            <h5 class="text-[15px] font-bold leading-[tight] w-[90px]">Create simple rules</h5>
+            <p class="text-[13px] text-gray-800 leading-[25px] mt-[15px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, beatae.</p>
+          </div>
+
+        </div>
+
+        <div class="flex flex-row gap-[10px]">
+          <div class="flex flex-col items-center justify-center">
+            <div class="bg-primaryColor rounded-[50px] w-[20px] h-[20px] p-[2px]  pl-[6px] ">
+              <p class="  text-white text-[11px]">2.</p>
+            </div>
+
+            <div class="bg-gray-200 w-[1px] h-[130px]"></div>
+
+          </div>
+
+          <div class="w-[180px]">
+            <h5 class="text-[15px] font-bold leading-[tight] w-[90px]">Share your link</h5>
+            <p class="text-[13px] text-gray-800 leading-[25px] mt-[15px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, beatae.</p>
+          </div>
+
+        </div>
+       
+        <div class="flex flex-row gap-[10px]">
+          <div class="flex flex-col items-center justify-center">
+            <div class="bg-primaryColor rounded-[50px] w-[20px] h-[20px] p-[2px]  pl-[6px] ">
+              <p class="  text-white text-[11px]">3.</p>
+            </div>
+
+            <div class="bg-gray-200 w-[1px] h-[130px]"></div>
+
+          </div>
+
+          <div class="w-[180px]">
+            <h5 class="text-[15px] font-bold leading-[tight] w-[90px]">Get booked</h5>
+            <p class="text-[13px] text-gray-800 leading-[25px] mt-[15px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, beatae.</p>
+          </div>
+
+        </div>
+
+      </div>
+
+
+    </section>
+
+    </div>
+  </body>
+</html>
